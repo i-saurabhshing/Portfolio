@@ -1,0 +1,99 @@
+body {
+    background-color: black;
+    color: white;
+    padding: 0;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+nav {
+    background-color: #333;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #55ccee;
+}
+
+header {
+    text-align: center;
+    margin: 20px 0;
+}
+
+h1 {
+    color: #55ccee;
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h1 span:hover {
+    color: #1af346;
+}
+
+#intro {
+    text-align: center;
+    margin: 20px;
+}
+
+#intro img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+#about {
+    text-align: center;
+    margin: 20px;
+}
+
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    border: 2px solid white;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+table th, table td {
+    border: 1px solid white;
+    padding: 10px;
+    text-align: center;
+}
+
+table thead {
+    background-color: #55ccee;
+    color: black;
+}
+
+table tbody tr:nth-child(even) {
+    background-color: #444;
+}
+
+table tbody tr:nth-child(odd) {
+    background-color: #333;
+}
+span:hover{color:rgb(5, 242, 226);
+}
+p{
+    font-family:cursive;
+}
